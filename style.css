@@ -9,6 +9,10 @@ body{
 	margin: 0;
 }
 
+.container{
+	width: 100%;
+}
+
 /***** NAV BAR *****/
 
 nav{
@@ -64,6 +68,12 @@ ul.topnav li.dropdownicon{
 	ul.topnav li.dropdownicon{
 		display: block;
 		float: right;
+	}
+	
+	ul.topnav.responsive li.dropdownicon{
+		position: absolute;
+		top: 0;
+		right: 0;
 	}
 	
 	ul.topnav.responsive {
