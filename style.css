@@ -83,6 +83,11 @@ div.box{
 		0 2px 3px 0 rgba(0, 0, 0, .1);
 }
 
+div.slopeIcon img{
+	display: block;
+	margin: auto;
+}
+
 button{
 	font-size: 32px;
 	font-weight: 700;
